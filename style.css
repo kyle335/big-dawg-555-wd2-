@@ -35,17 +35,8 @@ a:hover {
 }
 body background{
   linear-gradient(to right, lightgreen, teal);
-}
-header{ 
-  background:rgba(0,0,0,.2);
-}
-nav{
-  background:rgba(0,0,0,.2);
 } 
-main{
-  background:rgba(0,0,0,.2);
-} 
-footer{
+header, main, nav, footer{
   background:rgba(0,0,0,.2);
 }
 header{
