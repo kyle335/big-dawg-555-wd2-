@@ -8,10 +8,6 @@ display: grid;
     "nav main"
     "footer footer";
     }
-.nav {
-    background-color:blue;
-    grid-area:nav;
-    }
 nav {
     grid-area:nav;
     background:rgba(0,0,0,.2);
@@ -33,14 +29,14 @@ nav a {
 a:hover {
     color:white;
 }
-body background{
-  linear-gradient(to right, lightgreen, teal);
+body {
+  background:linear-gradient(to right, lightgreen, teal);
 } 
 header, main, nav, footer{
   background:rgba(0,0,0,.2);
 }
-header{
-  h1: mediumspringgreen; 
+header h1{
+  color: mediumspringgreen; 
   text-shadow: 2px 2px 5px navy;
 }
 header h3, nav a, main h2{
@@ -61,9 +57,6 @@ main h2{
 nav li:{
   1.5em;
 }
-main p{
+main p, footer p{
   1em;
 } 
-footer p{
-  1em;
-}
