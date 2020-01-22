@@ -31,6 +31,8 @@ a:hover {
 }
 body {
   background:linear-gradient(to right, lightgreen, teal);
+  font-family: Verdana;
+  margin:0;
 } 
 header, main, nav, footer{
   background:rgba(0,0,0,.2);
@@ -46,17 +48,38 @@ main p, footer p{
   color: white;
 } 
 header h1{
-  5vw;
+  width: 5vw;
 }
 header h3{
-  2vw
+  width: 2vw;
 }
 main h2{
-  3em;
+  width: 3em;
 }
-nav li:{
-  1.5em;
+nav li{
+  width: 1.5em;
 }
 main p, footer p{
-  1em;
+  width: 1em;
 } 
+nav{
+  grid-area:nav;
+  background:rgba(0,0,0,.2);
+}
+nav ul{
+  padding: 10px;
+  margin:0;
+}
+nav li{
+  padding: 10px 10px;
+  list-style-type: none;
+  font-size: 1.5em
+  font-weight: bold;
+}
+nav a{
+  text-decoration:none;
+  color: navy;
+}
+a: hover{
+  color:white;
+}
