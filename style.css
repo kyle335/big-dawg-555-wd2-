@@ -1,5 +1,88 @@
+body{
+  background: linear-gradient(to right, lightgreen, teal);
+  margin:0;
+  font-family: Verdana;
+  grid-area: body;
+}
+
+header{
+ background:rgba(0,0,0,.2); 
+ grid-area:header;
+ text-align: center;
+}
+
+
+main {
+ padding: 5px; 
+ grid-area:main;
+ background:rgba(0,0,0,.2);
+}
+
+nav {
+    grid-area:nav;
+    background:rgba(0,0,0,.2);
+    }
+
+footer {
+  grid-area: footer;
+  background:rgba(0,0,0,.2);
+  text-align: center;
+}
+
+
+header h1 {
+color: mediumspringgreen; 
+text-shadow: 2px 2px 5px navy;
+}
+  
+header h3, nav a, main h2 { 
+color: navy;
+}
+
+main p, footer p { 
+color:white;
+  font-size:1em;
+}
+  
+nav ul {
+   padding:10px;
+   margin:0;
+}
+
+  nav li {
+    padding:10px 10px;
+    list-style-type:none;
+    font-size:1.5em;
+    font-weight:bold;
+}
+
+  nav a {
+    text-decoration:none;
+    color:navy;
+}
+
+a:hover {
+    color:white;
+}
+
+header h1{ 
+ font-size:5vw;
+  margin: 0;
+}
+header h3{
+  font-size:2vw;
+  margin: 0;
+}
+main h2{
+ font-size:3em;
+ text-align: center;
+}
+
+main p, footer p {
+    font-size:1em;
+}
 .container1 { /*for index.html*/
-display: grid;
+  display: grid;
   grid-template-columns:auto 1fr;
   grid-gap:.5em;
   margin:1%;
@@ -7,87 +90,4 @@ display: grid;
     "header header"
     "nav main"
     "footer footer";
-    }
-nav {
-    grid-area:nav;
-  background:rgba(0,0,0,.2);
-    }
-main{
-background:rgba(0,0,0,.2);  
-  grid-area: main;
-}
-header{
-  background:rgba(0,0,0,.2);
-  grid-area: header;
-}
-footer{
-  background:rgba(0,0,0,.2);
-  grid-area: footer;
-  {
-nav ul {
-   padding:10px;
-   margin:0;
-}
-nav li {
-    padding:10px 10px;
-    list-style-type:none;
-    font-size:1.5em;
-    font-weight:bold;
-}
-nav a {
-    text-decoration:none;
-    color:navy;
-}
-a:hover {
-    color:white;
-}
-body {
-  background:linear-gradient(to right, lightgreen, teal);
-  font-family: Verdana;
-  margin:0;
-} 
-
-header h1{
-  color: mediumspringgreen; 
-  text-shadow: 2px 2px 5px navy;
-}
-header h3, nav a, main h2{
-  color: navy;
-} 
-main p, footer p{
-  color: white;
-} 
-header h1{
-font-size: 5vw;
-}
-header h3{
-font-size: 2vw;
-}
-main h2{
-font-size: 3em;
-}
-nav li{
-font-size: 1.5em;
-}
-main p, footer p{
-font-size: 1em;
-} 
-
-}
-nav ul{
-  padding: 10px;
-  margin:0;
-}
-nav li{
-  padding: 10px 10px;
-  list-style-type: none;
-  font-size: 1.5em;
-  font-weight: bold;
-}
-nav a{
-  text-decoration:none;
-  color: navy;
-}
-a: hover{
-  color:white;
 }
