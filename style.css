@@ -89,14 +89,14 @@ footer p {
 /*---------------------------Mobile Layout Styles----------------------------*/
 .container1 { /*for index.html*/
   display: grid;
-  grid-template-columns:?;
+  grid-template-columns:100%;
   grid-gap:.5em;
   margin:1%;
   grid-template-areas:
-    "?"
-    "?"
-    "?"
-    "?";   
+    "header"
+    "nav"
+    "main"
+    "footer";   
     }
 
 /*This stuff is for the hamburger menu*/
